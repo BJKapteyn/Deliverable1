@@ -1,0 +1,7 @@
+D:\C#\Delivery1\Delivery1\obj\Debug\Delivery1.csprojAssemblyReference.cache
+D:\C#\Delivery1\Delivery1\obj\Debug\Delivery1.csproj.CoreCompileInputs.cache
+D:\C#\Delivery1\Delivery1\bin\Debug\Delivery1.exe.config
+D:\C#\Delivery1\Delivery1\bin\Debug\Delivery1.exe
+D:\C#\Delivery1\Delivery1\bin\Debug\Delivery1.pdb
+D:\C#\Delivery1\Delivery1\obj\Debug\Delivery1.exe
+D:\C#\Delivery1\Delivery1\obj\Debug\Delivery1.pdb
