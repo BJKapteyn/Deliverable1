@@ -64,7 +64,8 @@ namespace Delivery1
                 }
 
                 //next three while loops get the three numbers, checks if they're positive numbers, and assigns them to number variables.
-                Console.WriteLine("Enter three numbers to get the low, high, and average written out as money. Press Q to quit");
+                Console.WriteLine("Enter three numbers to get the low, high, average, and total written out as money from different" +
+                    "countries. \nPress Q to quit\n");
                 while (true)
                 {
                     Console.Write("Enter first number: ");
@@ -134,12 +135,14 @@ namespace Delivery1
 
                 double[] numberArray = new double[3] { number1, number2, number3 };
                 lowHigh(numberArray);
-                double average = Math.Round((number1 + number2 + number3) / 3, 6);
+                double average = Math.Round((number1 + number2 + number3) / 3, 2);
+                double total = Math.Round(number1 + number2 + number3);
+
 
                 //prints the results
                 Console.WriteLine($"The lowest number is {low}, the highest is {high}, and the average is {average}\n");
-                Console.WriteLine("Here it is in money notations in different countries:\n");
-                PrintMoney.PrintNotation("United States", "Sweden", "Japan", "Taiwan", average);
+                Console.WriteLine("Here it is the total in money notations of different countries:\n");
+                PrintMoney.PrintNotation("United States", "Sweden", "Japan", "Taiwan", total);
 
                 //restart program of exit
                 Console.Write("\n\"R\" to restart program or any other key to exit: ");
