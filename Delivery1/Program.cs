@@ -64,7 +64,7 @@ namespace Delivery1
                 }
 
                 //next three while loops get the three numbers, checks if they're positive numbers, and assigns them to number variables.
-                Console.WriteLine("Enter three numbers to get the low, high, average, and total written out as money from different" +
+                Console.WriteLine("Enter three numbers to get the low, high, average, and total written out as money from different " +
                     "countries. \nPress Q to quit\n");
                 while (true)
                 {
